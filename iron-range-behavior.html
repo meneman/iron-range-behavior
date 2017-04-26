@@ -115,7 +115,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   _update: function() {
     this._validateValue();
     //hard coded the rounding because u cant use _setRatio() anymore
-    this._setRatio(Math.round(this._calcRatio(this.value) * 100000)/100);
+    this._setRatio(Math.round(this._calcRatio(this.value) * 10000)/100);
   }
 
 };
